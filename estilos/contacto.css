@@ -1,0 +1,254 @@
+body{
+
+    padding: 0;
+    margin: 0;
+    background: linear-gradient(to right, #16d39a, #327950);
+    font-family: 'Josefin Sans', sans-serif;
+    box-sizing: border-box;
+
+}
+
+
+/*-------------------------- header --------------------------------------*/
+
+.caja{
+
+    margin:10px;
+    height: 250px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-end;
+    
+
+}
+
+.contenido-del-header{
+
+    
+    display: flex;
+    width: 25%;
+    flex-direction: column;
+    justify-content: flex-end;
+    
+
+
+}
+
+
+.titulo{
+
+    position: relative;
+    left: 35px;
+    height: 20%;
+    font-size: 2rem; 
+    
+}
+
+.titulo:hover{
+
+    color: #ddd163;
+    text-shadow: #1eb65d -10px 5px 5px;
+    transition: 1s;
+    
+
+}
+
+.imagen-del-header{
+
+    width: 100%;
+    height: 75%;
+    border-radius: 5px;
+
+    
+}
+
+
+nav{
+
+   
+    height: 25%;
+    
+
+     
+}
+
+
+nav li {
+    display: inline-block;
+    margin: 0 0 0 15px;
+}
+
+nav a {
+    text-transform: uppercase;
+    color: #ddd163;
+    font-weight: bold;
+    font-size: 26px;
+    text-decoration: none;
+    transition: 1s all;
+}
+
+
+nav a:hover{
+    color: #c99c3c;
+    font-size: 29.1px;
+}
+
+
+/* ------------------------------------- estilos del formulario -------------------------------------------*/
+
+
+form {
+    margin: 40px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+
+
+
+.datos{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 1.3em;
+    width: 35%;
+    margin: 10px;
+}
+
+.input-dato{
+
+    margin: 0 0 20px;
+    padding: 10px 25px;
+    width: 55%;
+    border-radius: 10px;
+
+  
+}
+
+
+.contacto{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 1.2em;
+    margin: 10px;
+
+}
+
+.pregunta{
+    margin: 10px;
+
+}
+
+.horario{
+
+  
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+    padding: 5px;
+
+
+}
+
+.checkbox{
+
+    margin: 15px;
+    height: 15%;
+}
+
+.enviar{
+
+    width: 75%;
+    height: 15%;
+    padding: 15px 0;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    background: #32a11c;
+    border: none;
+    border-radius: 5px;
+    transition: 1s background;
+    cursor: pointer;
+    margin: 10px;
+}
+
+.enviar:hover{
+
+    background: #ad8534;
+    transition: 0.5s;
+    transform: scale(1.1);
+    box-shadow: 2px 3px 2px   #dd9b54;
+}
+
+
+.seleccion-de-horarios{
+
+    width: 35%;
+    height: 20%;
+    margin: 5px;
+  
+
+
+    
+}
+
+table{
+    margin: 20px 20px;
+    
+}
+thead{
+    background: #166638;
+    color:white ;
+    font-weight: bold;
+    padding: 8px 15px;
+    
+     
+}   
+
+td{
+    border: 1px solid #0f5309;
+    border-radius: 2px;
+    padding: 8px 15px;
+     
+}   
+
+.flores{
+  
+    width: 18%;
+    position: absolute;
+    left: 10em;
+    bottom: 1em;
+    border-radius: 10px;
+
+    
+}
+
+/*-----------------------------------footer--------------------------------------*/
+
+footer{
+
+    display: flex;
+    flex-direction: row;
+
+
+}
+
+.imagen-footer{
+    width: 4%;
+  
+    
+}
+
+.copyright{
+    display: inline-block;
+}
