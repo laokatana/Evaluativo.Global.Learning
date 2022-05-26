@@ -38,7 +38,7 @@
           <label for="nombreapellido">Nombre y Apellido</label>
           <input
             type="text"
-            id="nombreapellido"
+            id="nombre-apellido"
             class="input-dato"
             required
             placeholder="Nombre y Apellido"
@@ -47,7 +47,7 @@
           <label for="correoelectronico">Correo electronico</label>
           <input
             type="email"
-            id="correoelectronico"
+            id="email"
             class="input-dato"
             required
             placeholder="email@dominio.com"
@@ -79,6 +79,7 @@
 
           <label for="radio-email">
             <input
+              class="contact-us"
               type="radio"
               name="contacto"
               value="email"
@@ -88,6 +89,7 @@
 
           <label for="radio-telefono">
             <input
+              class="contact-us"
               type="radio"
               name="contacto"
               value="telefono"
@@ -97,24 +99,16 @@
 
           <label for="radio-whatsapp">
             <input
+              class="contact-us"
               type="radio"
               name="contacto"
               value="whatsapp"
               id="radio-whatsapp"
-              checked
             />Whatsapp
           </label>
         </section>
 
         <section class="horario">
-          <p style="font-size: 20px">¿En cual horario prefiere ser atendidx?</p>
-
-          <select class="seleccion-de-horarios">
-            <option>Mañana</option>
-            <option>Tarde</option>
-            <option>Tarde noche</option>
-          </select>
-
           <label class="checkbox">
             <input type="checkbox" checked />¿Le gustaria recibir
             notifificaciones de vivero plantasia en su email?
@@ -151,14 +145,24 @@
             </tbody>
           </table>
         </section>
+        
+        <div class="contenedor-imagen">
+          <img src="imagenes/header.gif" alt="" class="flores" />
+        </div>
 
-        <img src="imagenes/header.gif" alt="" class="flores" />
       </form>
     </main>
 
     <footer>
       <img src="imagenes/footer.png" alt="" class="imagen-footer" />
       <p class="copyright">&copy Copyright vivero Plantasia -2022</p>
+      <div class="coder">
+        <p><strong>Coder by Lao:</strong>  <a href="https://github.com/laokatana/">github</a></p>
+      </div>
+      
+      
     </footer>
+
+    <script src="archivos.js/formulario.js"></script>
   </body>
 </html>

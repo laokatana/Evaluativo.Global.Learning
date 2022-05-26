@@ -141,12 +141,6 @@ form {
   box-shadow: 2px 3px 2px #dd9b54;
 }
 
-.seleccion-de-horarios {
-  width: 35%;
-  height: 20%;
-  margin: 5px;
-}
-
 table {
   margin: 20px 20px;
 }
@@ -163,11 +157,17 @@ td {
   padding: 8px 15px;
 }
 
-.flores {
-  width: 18%;
+.contenedor-imagen {
   position: absolute;
-  left: 9em;
-  bottom: 1px;
+  left: 115px;
+  top: 305px;
+  width: 20%;
+  height: auto;
+  margin: 10px;
+}
+
+.flores {
+  width: 100%;
   border-radius: 10px;
 }
 
@@ -184,4 +184,11 @@ footer {
 
 .copyright {
   display: inline-block;
+}
+
+.coder{
+  display: inline-block;
+  margin-left: 10px;
+  color: #093905;
+
 }
