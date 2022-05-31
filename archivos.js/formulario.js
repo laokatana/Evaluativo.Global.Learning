@@ -15,14 +15,14 @@ window.addEventListener("DOMContentLoaded", () => {
 
     showSelected();
 
-    const cliente = {
+    const customer = {
       nameAndSurname: nameAndSurname.value,
       email: email.value,
       phone: phone.value,
       contactUs: contactMethod,
     };
 
-    savedData.push(cliente);
+    savedData.push(customer);
 
     window.localStorage.setItem("contacto", JSON.stringify(savedData));
   });
