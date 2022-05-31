@@ -95,7 +95,7 @@ nav a:hover {
 
 .mapa-contenido {
   width: 65%;
-  margin: 15px;
+  margin-bottom:75px;
 }
 
 .mapa-contenido:hover {
@@ -105,9 +105,15 @@ nav a:hover {
 
 /*-------------------------------- footer ----------------------------------------*/
 
-footer {
+.coder{
+  
   display: flex;
   flex-direction: row;
+  justify-content: flex-start;
+  gap: 1em;
+  margin-left: 10px;
+  color: #093905;
+  
 }
 
 .imagen-footer {

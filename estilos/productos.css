@@ -262,11 +262,18 @@ p {
 }
 
 /*----------------------------------- footer ---------------------------------------------------*/
-
-footer {
+.coder{
+  
   display: flex;
   flex-direction: row;
+  justify-content: flex-start;
+  gap: 1em;
+  margin-left: 10px;
+  color: #093905;
+  
+  
 }
+
 
 .imagen-footer {
   width: 4%;

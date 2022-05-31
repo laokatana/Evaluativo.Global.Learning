@@ -159,11 +159,12 @@ td {
 
 .contenedor-imagen {
   position: absolute;
-  left: 115px;
+  left: 10em;
   top: 305px;
-  width: 20%;
+  width: 15%;
   height: auto;
   margin: 10px;
+ 
 }
 
 .flores {
@@ -173,10 +174,17 @@ td {
 
 /*-----------------------------------footer--------------------------------------*/
 
-footer {
+.coder{
+  
   display: flex;
   flex-direction: row;
+  justify-content: flex-start;
+  gap: 1em;
+  margin-left: 10px;
+  color: #093905;
+  
 }
+
 
 .imagen-footer {
   width: 4%;
@@ -186,9 +194,6 @@ footer {
   display: inline-block;
 }
 
-.coder{
-  display: inline-block;
-  margin-left: 10px;
-  color: #093905;
 
-}
+
+
