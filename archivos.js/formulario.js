@@ -8,6 +8,21 @@ window.addEventListener("DOMContentLoaded", () => {
   const send = document.querySelector(".enviar");
   let contactMethod;
 
+  const showSelected = () => {
+    if (document.getElementById("radio-email").checked) {
+      alert("tu informacion a sido enviada te vamos a contactar por email");
+      contactMethod = document.getElementById("radio-email").value;
+    }
+    if (document.getElementById("radio-telefono").checked) {
+      alert("tu informacion a sido enviada te vamos a contactar por telefono");
+      contactMethod = document.getElementById("radio-telefono").value;
+    }
+    if (document.getElementById("radio-whatsapp").checked) {
+      alert("tu informacion a sido enviada te vamos a contactar por whatsapp");
+      contactMethod = document.getElementById("radio-whatsapp").value;
+    }
+  };
+
   let savedData = [];
 
   send.addEventListener("click", (event) => {
@@ -27,18 +42,3 @@ window.addEventListener("DOMContentLoaded", () => {
     window.localStorage.setItem("contacto", JSON.stringify(savedData));
   });
 });
-
-const showSelected = () => {
-  if (document.getElementById("radio-email").checked) {
-    alert("tu informacion a sido enviada te vamos a contactar por email");
-    contactMethod = document.getElementById("radio-email").value;
-  }
-  if (document.getElementById("radio-telefono").checked) {
-    alert("tu informacion a sido enviada te vamos a contactar por telefono");
-    contactMethod = document.getElementById("radio-telefono").value;
-  }
-  if (document.getElementById("radio-whatsapp").checked) {
-    alert("tu informacion a sido enviada te vamos a contactar por whatsapp");
-    contactMethod = document.getElementById("radio-whatsapp").value;
-  }
-};
